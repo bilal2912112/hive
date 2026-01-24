@@ -9,7 +9,7 @@
   },
   "license": "Apache-2.0",
   "scripts": {
-    "setup": "echo '⚠️  This npm setup is for the archived web application. For agent development, use: ./scripts/setup-python.sh' && bash scripts/setup.sh"
+    "setup": "echo '\u26a0\ufe0f  This npm setup is for the archived web application. For agent development, use: ./scripts/setup-python.sh' && bash scripts/setup.sh"
   },
   "devDependencies": {
     "@types/node": "^20.10.0",
