@@ -20,9 +20,6 @@ docker-compose.override.yml
 
 # IDE
 .idea/
-.vscode/*
-!.vscode/extensions.json
-!.vscode/settings.json.example
 *.swp
 *.swo
 *~
@@ -35,6 +32,7 @@ Thumbs.db
 logs/
 *.log
 npm-debug.log*
+temp_auto_push.bat
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
@@ -70,3 +68,5 @@ exports/*
 .agent-builder-sessions/*
 
 .venv
+.gitignore
+branch_structure.json
